@@ -13,7 +13,14 @@ public class Main {
         System.out.println(resultado3);
 
         Ejercicio4 test4 = new Ejercicio4();
-        boolean resultado4 = test4.saveData(test1, "fichero_de_bytes.txt", false);
+        Coche coche = new Coche(6, "0000DKZ", 120);
+        boolean resultado4 = test4.saveData(coche, "fichero_de_bytes.txt", false);
         System.out.println(resultado4);
+
+        Ejercicio5 test5 = new Ejercicio5();
+        String resultado5 = test5.objectReader("fichero_de_bytes.txt");
+        System.out.println(resultado5);
+
+
     }
 }

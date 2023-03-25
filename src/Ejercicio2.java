@@ -1,5 +1,4 @@
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Ejercicio2 {
     public String fileReader(String file) {
