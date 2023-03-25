@@ -1,7 +1,8 @@
 import java.io.*;
+import java.util.ArrayList;
 
 public class Ejercicio6 {
-    public String objectWriter(Object[] objectList, String file, boolean bool) {
+    public String objectWriter(ArrayList<Object> objectList, String file, boolean bool) {
         FileOutputStream writer;
         ObjectOutputStream byteObject;
 
