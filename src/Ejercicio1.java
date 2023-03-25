@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Ejercicio1 implements Serializable {
+public class Ejercicio1 {
     public boolean saveData(String str, String file) {
         FileWriter writer;
         try {
