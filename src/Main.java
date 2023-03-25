@@ -11,5 +11,9 @@ public class Main {
         Ejercicio3 test3 = new Ejercicio3();
         boolean resultado3 = test3.saveData("\nEsta es otra línea.", "fichero_de_almacenamiento.txt", true);
         System.out.println(resultado3);
+
+        Ejercicio4 test4 = new Ejercicio4();
+        boolean resultado4 = test4.saveData(test1, "fichero_de_bytes.txt", false);
+        System.out.println(resultado4);
     }
 }
